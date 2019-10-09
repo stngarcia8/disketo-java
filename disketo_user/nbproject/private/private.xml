@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/model/sesionbeans/ContactFacade.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/entity/User.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/contacto-agregar-mensaje.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/contacto-listado-mensajes.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/controller/contactMessage/AddContactMessageServlet.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/js/validaFormularioContacto.js</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/usuario-agregado.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/model/sesionbeans/UserFacade.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/footer.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/controller/session/LogoutServlet.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/controller/session/LoginServlet.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/controller/contactMessage/ListContactMessageServlet.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/contacto-mensaje-agregado.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/head.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/usuario-agregar.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/model/UserLogged.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/acercaDE.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/login.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/model/sesionbeans/AbstractFacade.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/controller/user/AddUserServlet.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/WEB-INF/glassfish-resources.xml</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/js/validaFormularioUsuario.js</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/nbproject/build-impl.xml</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/model/sesionbeans/UserFacadeLocal.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/js/validaFormularioLogin.js</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/WEB-INF/web.xml</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/codigoArea.json</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/conf/MANIFEST.MF</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/web/index.jsp</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/model/sesionbeans/ContactFacadeLocal.java</file>
+            <file>file:/H:/stnProyectos/progJavaWeb/DisketoApp/src/java/entity/Contact.java</file>
+        </group>
+    </open-files>
+</project-private>

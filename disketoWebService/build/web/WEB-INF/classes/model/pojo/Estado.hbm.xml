@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-06-2019 23:52:34 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.pojo.Estado" table="estado" catalog="disketo_ejercicio" optimistic-lock="version">
+        <id name="idEstado" type="java.lang.Integer">
+            <column name="idEstado" />
+            <generator class="identity" />
+        </id>
+        <property name="nombreEstado" type="string">
+            <column name="nombreEstado" length="25" not-null="true" unique="true" />
+        </property>
+        <set name="artistas" table="artista" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idEstado" not-null="true" />
+            </key>
+            <one-to-many class="model.pojo.Artista" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,44 @@
+{
+	"paises": [
+		{
+			"codigo": "054",
+			"nombre": "Argentina"
+		},
+		{
+			"codigo": "591",
+			"nombre": "Bolivia"
+		},
+		{
+			"codigo": "055",
+			"nombre": "Brasil"
+		},
+		{
+			"codigo": "056",
+			"nombre": "Chile"
+		},
+		{
+			"codigo": "057",
+			"nombre": "Colombia"
+		},
+		{
+			"codigo": "593",
+			"nombre": "Ecuador"
+		},
+		{
+			"codigo": "595",
+			"nombre": "Paraguay"
+		},
+		{
+			"codigo": "051",
+			"nombre": "Perú"
+		},
+		{
+			"codigo": "598",
+			"nombre": "Uruguay"
+		},
+		{
+			"codigo": "058",
+			"nombre": "Venezuela"
+		}
+	]
+}

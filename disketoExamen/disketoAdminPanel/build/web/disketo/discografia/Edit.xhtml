@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="DiscografiaEditDlg" widgetVar="DiscografiaEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditDiscografiaTitle}">
+            <h:form id="DiscografiaEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{discografiaController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditDiscografiaLabel_idDiscografia}" for="idDiscografia" />
+                        <p:inputText id="idDiscografia" value="#{discografiaController.selected.idDiscografia}" title="#{bundle.EditDiscografiaTitle_idDiscografia}" required="true" requiredMessage="#{bundle.EditDiscografiaRequiredMessage_idDiscografia}"/>
+                        <p:outputLabel value="#{bundle.EditDiscografiaLabel_nombreDiscografia}" for="nombreDiscografia" />
+                        <p:inputText id="nombreDiscografia" value="#{discografiaController.selected.nombreDiscografia}" title="#{bundle.EditDiscografiaTitle_nombreDiscografia}" required="true" requiredMessage="#{bundle.EditDiscografiaRequiredMessage_nombreDiscografia}"/>
+                        <p:outputLabel value="#{bundle.EditDiscografiaLabel_descripcionDiscografia}" for="descripcionDiscografia" />
+                        <p:inputText id="descripcionDiscografia" value="#{discografiaController.selected.descripcionDiscografia}" title="#{bundle.EditDiscografiaTitle_descripcionDiscografia}" />
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{discografiaController.update}" value="#{bundle.Save}" update="display,:DiscografiaListForm:datalist,:growl" oncomplete="handleSubmit(args, 'DiscografiaEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="DiscografiaEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

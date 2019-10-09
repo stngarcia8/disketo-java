@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/denegar.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/Bundle.properties</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/formato/List.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/login/ValidadorPassword.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/login/SesionController.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/AlbumController.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/formato/Create.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/DiscografiaFacade.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/WEB-INF/faces-config.xml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/templates/templateLogin.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/login/ValidadorEmail.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/album/View.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/artista/Edit.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/AlbumFacade.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/FormatoController.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/estado/Create.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/album/Create.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/index.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/templates/template.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/ArtistaFacade.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/album/List.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/album/Edit.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/genero/Create.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/ArtistaController.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/EstadoFacade.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/inicio/inicio.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/artista/List.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/genero/Edit.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/genero/List.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/login/LoginController.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/UsuarioFacade.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/FormatoFacade.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/DiscografiaController.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/GeneroFacade.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/UsuarioFacadeLocal.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/formato/Edit.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/estado/Edit.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/AbstractFacade.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/artista/Create.xhtml</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/EstadoController.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/src/java/controlador/jfs/GeneroController.java</file>
+            <file>file:/F:/stnProyectos/progJavaWeb/DisketoApp/Disketo_AdminPanel/web/disketo/estado/List.xhtml</file>
+        </group>
+    </open-files>
+</project-private>

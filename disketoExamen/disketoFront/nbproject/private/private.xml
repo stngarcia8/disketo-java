@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/disketoExamen/disketoFront/src/conf/persistence.xml</file>
+            <file>file:/D:/disketoExamen/disketoFront/src/java/modelo/AbstractFacade.java</file>
+            <file>file:/D:/disketoExamen/disketoFront/web/footer.jsp</file>
+            <file>file:/D:/disketoExamen/disketoFront/web/head.jsp</file>
+            <file>file:/D:/disketoExamen/disketoFront/web/index.jsp</file>
+            <file>file:/D:/disketoExamen/disketoFront/web/acercaDE.jsp</file>
+            <file>file:/D:/disketoExamen/disketoFront/web/contacto-agregar-mensaje.jsp</file>
+            <file>file:/D:/disketoExamen/disketoFront/src/java/entidades/Contacto.java</file>
+            <file>file:/D:/disketoExamen/disketoFront/src/java/modelo/ContactoFacadeLocal.java</file>
+            <file>file:/D:/disketoExamen/disketoFront/web/resources/js/validaFormularioContacto.js</file>
+            <file>file:/D:/disketoExamen/disketoFront/src/java/modelo/ContactoFacade.java</file>
+            <file>file:/D:/disketoExamen/disketoFront/web/contacto-mensaje-agregado.jsp</file>
+            <file>file:/D:/disketoExamen/disketoFront/src/java/controlador/MensajeContacto.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Disketo - WebSocket</title>
+    </head>
+
+    <body onload="inicializar()">
+        <header style="background-color:black; color:white;  width: 100%; heigth:80px; display:flex; justify-content: row nowrap;">
+            <div>
+                <img src="resources/img/disco.png" alt="Disketo" style="width:75px; height:75px; margin:10px; padding:10px;">
+            </div>
+            <div>
+                <h1><strong>Disketo</strong></h1>
+            </div>
+            <nav style="width:100%; display:flex; align-content: center; justify-content: flex-end; text-decoration: none; color:white; vertical-align: central; padding:20px; margin:10px; ">
+                <input type="button" id="btnInicio" onclick="inicializar(event);" value="Inicio" style="background-color:black; color:white; border:none; ">
+                <input type="button" id="btnArtistas" onclick="consultaArtistas(event);" value="Artistas" style="background-color:black; color:white; border:none; ">
+                <input type="button" id="btnEstados" onclick="consultaEstados(event);" value="Estados" style="background-color:black; color:white; border:none;">
+                <input type="button" id="btnGeneros" onclick="consultaGeneros(event);" value="Generos" style="background-color:black; color:white; border:none;">
+            </nav>
+        </header>
+        <section style="background-color:white; width: 95%; color: black;">
+            <p id="estado"></p>
+
+            <div id="sinConexion">
+                <h2 style="background-color:lightgray; text-align: center; width: 100%; padding: 5px;">Bienvenido!</h2>
+                <p style="text-align: center;">
+                    Pulse las opciones de la barra superior para mostrar los resultados que desea.
+                </p>
+            </div>
+
+            <div id="resultados">
+                <h2 id="titulo" style="background-color: lightgray; padding: 5px; text-align: center; width: 100%;">Titulo de la lista</h2>
+                <div id="tablaResultados"></div>
+            </div>
+
+        </section>
+
+
+        <footer style="background-color: lightgray; align-content: center; text-align: center;">
+            <h4>
+                Desarrollo JavaWeb.
+            </h4>
+            <p style="text-align: center;">
+                Disketo: Programado por: Francisco Reyes | Daniel García</p>
+        </footer>
+
+
+        <script src="resources/js/jquery-3.3.1.min.js"></script>
+        <script src="resources/js/JSON-to-Table.min.1.0.0.js"></script>
+        <script src="resources/js/disketoSocket.js"></script>
+
+    </body>
+</html>

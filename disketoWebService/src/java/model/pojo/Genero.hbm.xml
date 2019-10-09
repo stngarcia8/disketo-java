@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-06-2019 23:52:34 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.pojo.Genero" table="genero" catalog="disketo_ejercicio" optimistic-lock="version">
+        <id name="idGenero" type="java.lang.Integer">
+            <column name="idGenero" />
+            <generator class="identity" />
+        </id>
+        <property name="nombreGenero" type="string">
+            <column name="nombreGenero" length="50" not-null="true" unique="true" />
+        </property>
+        <set name="artistas" table="artista" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="idGenero" not-null="true" />
+            </key>
+            <one-to-many class="model.pojo.Artista" />
+        </set>
+    </class>
+</hibernate-mapping>

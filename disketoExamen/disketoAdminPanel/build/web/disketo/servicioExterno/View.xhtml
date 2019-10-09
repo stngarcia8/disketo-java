@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ArtistaViewDlg" widgetVar="ArtistaViewDialog" modal="true" resizable="false" appendTo="@(body)" header="Visualizando artista.">
+            <h:form id="ArtistaViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{artistaExternoController.selected != null}">
+                        <h:outputText value="Nombre artista"/>
+                        <h:outputText value="#{artistaExternoController.selected.nombreArtista}" title="Nombre artista"/>
+                        <h:outputText value="País de origen"/>
+                        <h:outputText value="#{artistaExternoController.selected.origenArtista}" title="País de origen"/>
+                        <h:outputText value="Año de formación"/>
+                        <h:outputText value="#{artistaExternoController.selected.formadoArtista}" title="Año de formación"/>
+                        <h:outputText value="Temática"/>
+                        <h:outputText value="#{artistaExternoController.selected.tematicaArtista}" title="Temática"/>
+                        <h:outputText value="Estado actual"/>
+                        <h:outputText value="#{artistaExternoController.selected.estado.nombreEstado}" title="Estado actual"/>
+                        <h:outputText value="Genero musical"/>
+                        <h:outputText value="#{artistaExternoController.selected.genero.nombreGenero}" title="Genero musical"/>
+                    </p:panelGrid>
+                    <p:commandButton value="Aceptar" onclick="ArtistaViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

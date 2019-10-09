@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ArtistaEditDlg" widgetVar="ArtistaEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditArtistaTitle}">
+            <h:form id="ArtistaEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{artistaController.selected != null}">
+                        
+                        
+
+
+                        <p:outputLabel value="#{bundle.EditArtistaLabel_nombreArtista}" for="nombreArtista" />
+                        <p:inputText id="nombreArtista" value="#{artistaController.selected.nombreArtista}" title="#{bundle.EditArtistaTitle_nombreArtista}" required="true" requiredMessage="#{bundle.EditArtistaRequiredMessage_nombreArtista}"/>
+                        <p:outputLabel value="#{bundle.EditArtistaLabel_origenArtista}" for="origenArtista" />
+                        <p:inputText id="origenArtista" value="#{artistaController.selected.origenArtista}" title="#{bundle.EditArtistaTitle_origenArtista}" />
+                        <p:outputLabel value="#{bundle.EditArtistaLabel_formadoArtista}" for="formadoArtista" />
+                        <p:inputText id="formadoArtista" value="#{artistaController.selected.formadoArtista}" title="#{bundle.EditArtistaTitle_formadoArtista}" />
+                        <p:outputLabel value="#{bundle.EditArtistaLabel_tematicaArtista}" for="tematicaArtista" />
+                        <p:inputText id="tematicaArtista" value="#{artistaController.selected.tematicaArtista}" title="#{bundle.EditArtistaTitle_tematicaArtista}" />
+                        <p:outputLabel value="#{bundle.EditArtistaLabel_idEstado}" for="idEstado" />
+                        <p:selectOneMenu id="idEstado" value="#{artistaController.selected.idEstado}" required="true" requiredMessage="#{bundle.EditArtistaRequiredMessage_idEstado}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{estadoController.itemsAvailableSelectOne}"
+                                           var="idEstadoItem"
+                                           itemValue="#{idEstadoItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.EditArtistaLabel_idGenero}" for="idGenero" />
+                        <p:selectOneMenu id="idGenero" value="#{artistaController.selected.idGenero}" required="true" requiredMessage="#{bundle.EditArtistaRequiredMessage_idGenero}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{generoController.itemsAvailableSelectOne}"
+                                           var="idGeneroItem"
+                                           itemValue="#{idGeneroItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{artistaController.update}" value="#{bundle.Save}" update="display,:ArtistaListForm:datalist,:growl" oncomplete="handleSubmit(args, 'ArtistaEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="ArtistaEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

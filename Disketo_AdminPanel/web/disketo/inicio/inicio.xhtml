@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:body>
+        <ui:composition template="/templates/template.xhtml">
+            <ui:define name="title">
+                <h:outputText value="Disketo - Panel de administración."></h:outputText>
+            </ui:define>
+
+            <ui:define name="body">
+                <h2>
+                    <h:outputText value="Bienvenido " />
+                    <h:outputText value="#{loginController.nombreUsuario}"/>
+                </h2>
+                <h:form id="form">
+                    <p:growl id="msgs" showDetail="true" />
+                    <p:panelGrid style="margin-top:20px; margin-bottom: 20px; width:100%  ">
+                        <f:facet name="header">
+                            <p:row>
+                                <p:column colspan="2">Estados</p:column>
+                                <p:column colspan="2">Formatos</p:column>
+                                <p:column colspan="2">Generos</p:column>
+                            </p:row>
+                        </f:facet>
+                        <p:row>
+                            <p:column style="float:right;">
+                                <h:graphicImage value="/resources/img/status01.png" 
+                                                width="75px" height="75px" />
+                            </p:column>
+                            <p:column>
+                                <ul>
+                                    <li>Registra estados de artistas.</li>
+                                    <li>Edita el estado.</li>
+                                    <li>Quita un estado.</li>
+                                    <li>Lista los estados disponibles.</li>
+                                </ul>
+                                <p:button outcome="/disketo/estado/List.xhtml" value="Ir" 
+                                          style="width:50%; margin:auto; text-align: center;">
+                                </p:button>
+                            </p:column>
+
+                            <p:column  style="float:right;">
+                                <h:graphicImage value="/resources/img/format01.png" 
+                                                width="75px" height="75px" />
+                            </p:column>
+                            <p:column>
+                                <ul>
+                                    <li>Registra los formatos de albumnes.</li>
+                                    <li>Edita su información.</li>
+                                    <li>Quita un formato.</li>
+                                    <li>Lista los formatos disponibles.</li>
+                                </ul>
+                                <p:button outcome="/disketo/formato/List.xhtml" value="Ir" 
+                                          style="width:50%; margin:auto; text-align: center;">
+                                </p:button>
+                            </p:column>
+                            <p:column style="float:right;">
+                                <h:graphicImage value="/resources/img/genre01.png" 
+                                                width="75px" height="75px" />
+                            </p:column>
+                            <p:column>
+                                <ul>
+                                    <li>Registra tus generos favoritos.</li>
+                                    <li>Edita su información.</li>
+                                    <li>Elimina un genero.</li>
+                                    <li>Lista tus generos favoritos.</li>
+                                </ul>
+                                <p:button outcome="/disketo/genero/List.xhtml" value="Ir" 
+                                          style="width:50%; margin:auto; text-align: center;">
+                                </p:button>
+                            </p:column>
+                        </p:row>
+                    </p:panelGrid>
+
+
+                    <p:panelGrid style="margin-top:20px; margin-bottom: 20px; width:100%  ">
+                        <f:facet name="header">
+                            <p:row>
+                                <p:column colspan="2">Artistas</p:column>
+                                <p:column colspan="2">Album</p:column>
+                            </p:row>
+                        </f:facet>
+                        <p:row>
+                            <p:column style="float:right;">
+                                <h:graphicImage value="/resources/img/artist03.png" 
+                                                width="75px" height="75px" />
+                            </p:column>
+                            <p:column>
+                                <ul>
+                                    <li>Registra tus artistas.</li>
+                                    <li>Edita su información.</li>
+                                    <li>Quita un artista.</li>
+                                    <li>Lista tus artistas.</li>
+                                </ul>
+                                <p:button outcome="/disketo/artista/List.xhtml" value="Ir" 
+                                          style="width:50%; margin:auto; text-align: center;">
+                                </p:button>
+                            </p:column>
+
+                            <p:column  style="float:right;">
+                                <h:graphicImage value="/resources/img/album01.png" 
+                                                width="75px" height="75px" />
+                            </p:column>
+                            <p:column>
+                                <ul>
+                                    <li>Registra tus albumnes.</li>
+                                    <li>Edita su información.</li>
+                                    <li>Quita un album.</li>
+                                    <li>Lista los albumnes disponibles.</li>
+                                </ul>
+                                <p:button outcome="/disketo/album/List.xhtml" value="Ir" 
+                                          style="width:50%; margin:auto; text-align: center;">
+                                </p:button>
+                            </p:column>
+                        </p:row>
+                    </p:panelGrid>
+
+                </h:form>
+
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
